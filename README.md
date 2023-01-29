@@ -1,6 +1,6 @@
-### gitMovie
+#### gitMovie
 ## Project Description:
-_gitMovie_ is a front-end web application that allows users to search for movies and TV shows, view their details and ratings, and get recommendations for similar content. The application includes features such as the ability to filter the search results by "rating"; It also includes features such as the ability to filter the search results by "genre". The users can also view the history of previous movie searches. 
+ _gitMovie_ is a front-end web application that allows users to search for movies and TV shows, view their details and ratings, and get recommendations for similar content. The application includes features such as the ability to filter the search results by "rating"; It also includes features such as the ability to filter the search results by "genre". The users can also view the history of previous movie searches. 
 
 
 ## User Story:
@@ -17,24 +17,15 @@ It also includes features such as the ability to filter the search results by "g
 Users can also view history of previous searches (would possibly be a separate page HTML)
 
 # Acceptance Criteria:
-Given: Website with search box including a Title and Other Recommended Alternatives.
-WHEN I search for different genres of movies
-THEN I'm presented with a list of movies relating to the requested search.
-WHEN I'm presented with my list of movies I'd like to see some alternative recommendations (books, shows, other movies)
-THEN I'm shown a list of alternative recommendations (books, shows, other movies)
-WHEN I search what mood I'm in
-THEN I'm shown movies relating to that move
-WHEN I search for movie ratings by stars 1-5
-THEN I'm presented a list of movies with the selected rating
-
-
-
-Wireframe
-
-
-
-
-
+<li> GIVEN: Website with search box including a Title and Other Recommended Alternatives. </li>
+<li> WHEN I search for different genres of movies </li>
+<li> THEN I'm presented with a list of movies relating to the requested search. </li>
+<li> WHEN I'm presented with my list of movies I'd like to see some alternative recommendations (books, shows, other movies) </li>
+<li> THEN I'm shown a list of alternative recommendations (books, shows, other movies) </li>
+<li> WHEN I search what mood I'm in </li>
+<li> THEN I'm shown movies relating to that move </li>
+<li> WHEN I search for movie ratings by stars 1-5 </li>
+<li> THEN I'm presented a list of movies with the selected rating </li>
 
 
 ## APIs to be used: 
