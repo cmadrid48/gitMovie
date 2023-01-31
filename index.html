@@ -5,9 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/Styles/style.css">
-    <title>Document</title>
+    <title>gitMovie</title>
+    
 </head>
 <body>
-    <script src="assets/Js/main.js"></script>
+    <!-- movie search section -->
+    <section class="search-wrapper">
+        <form>
+            <h1>Welcome to gitMovie!</h1>
+            <p>Type in any genre/title:
+                <input id="searchTerm" type="text" placeholder="What are you looking for?" />
+            </p>
+            <p>
+                <label for="mood">Select mood:</label>
+                <select id="mood">
+                    <option>Happy</option>
+                    <option selected>Neutral</option>
+                    <option>Sad</option>
+                </select>
+            </p>
+            <p>
+                <input class="checkbox" id="rating" type="checkbox" />
+                <label for="rating">1 Star</label>
+                <input class="checkbox" id="rating" type="checkbox" />
+                <label for="rating">2 Star</label>
+                <input class="checkbox" id="rating" type="checkbox" />
+                <label for="rating">3 Star</label>
+                <input class="checkbox" id="rating" type="checkbox" />
+                <label for="rating">4 Star</label>
+                <input class="checkbox" id="rating" type="checkbox" />
+                <label for="rating">5 Star</label>
+            </p>
+            <p>
+                <button>Submit</button>
+            </p>
+        </form>
+    </section>
+      <!-- movie results carousel -->
+      <section class="slider-wrapper">
+        <button class="slide-arrow" id="slide-arrow-prev">
+          &#8249;
+        </button>
+        <button class="slide-arrow" id="slide-arrow-next">
+          &#8250;
+        </button>
+        <ul class="slides-container" id="slides-container">
+          <li class="slide"></li>
+          <li class="slide"></li>
+          <li class="slide"></li>
+          <li class="slide"></li>
+        </ul>
+      </section>
+      <script src="assets/Js/main.js"></script>
 </body>
 </html>
