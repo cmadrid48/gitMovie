@@ -60,3 +60,4 @@ The recommended movie should be selected from a database of movies that are curr
 The application should be able to handle multiple user inputs and provide different recommendations accordingly.
 The application should not crash or display any errors when receiving and processing user input.
 
+.
