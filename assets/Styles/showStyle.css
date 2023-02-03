@@ -11,7 +11,7 @@ body {
 header {
     background-color: #373b69;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1rem;
 }
 
@@ -21,7 +21,6 @@ h1 {
 
 .button {
     display: inline-block;
-    justify-content: center;
     border-radius: 4px;
     background-color: #7378c5;
     border: none;
@@ -90,7 +89,7 @@ main {
     justify-content: center;
 
 }
-.movies {
+.shows {
     background-color: #373b69;
     border-radius: 5px;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
@@ -100,12 +99,12 @@ main {
     width: 300px;
 }
 
-.movies img {
+.shows img {
     width: 100%;
 
 }
 
-.movie-info {
+.show-info {
     color: blanchedalmond;
     display: flex;
     align-items: center;
@@ -114,12 +113,12 @@ main {
     letter-spacing: 0.5rem;
 }
 
-.movie-info h3 {
+.show-info h3 {
     margin: 0;
 
 }
 
-.movie-info span {
+.show-info span {
     background-color: #22254b;
     border-radius: 3px;
     font-weight: bold;
@@ -144,6 +143,6 @@ main {
     margin-top: 0;
 }
 
-.movies:hover .overview {
+.shows:hover .overview {
     transform: translateY(0);
 }
