@@ -11,14 +11,21 @@ body {
 header {
     background-color: #373b69;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 1rem;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .search {
     background-color: transparent;
     border: 2px solid #22254b;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
     color: blanchedalmond;
     font-family: inherit;
     font-size: 1rem;
