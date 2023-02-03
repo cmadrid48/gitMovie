@@ -1,6 +1,6 @@
 #### gitMovie
 ## Project Description:
- _gitMovie_ is a front-end web application that allows users to search for movies and TV shows, view their details and ratings, and get recommendations for similar content. The users can also view the history of previous movie searches. 
+ _gitMovie_ is a front-end web application that allows users to search for movies and TV shows, view their details and ratings, and get recommendations for similar content. The users can also view the history of previous movie searches.
 
 
 ## User Story:
