@@ -24,15 +24,15 @@ function showShows(shows) {
     main.innerHTML = '';
 
     shows.forEach(show => {
-        var {poster_path, title, vote_average, overview} = show
+        var {poster_path, name, vote_average, overview} = show
 
         var showsEl = document.createElement('div');
         showsEl.classList.add('shows');
 
         showsEl.innerHTML = `
-        <img src="${imgPath + poster_path}" alt="${title}">
+        <img src="${imgPath + poster_path}" alt="${name}">
         <div class="show-info">
-            <h3>${title}</h3>
+            <h3>${name}</h3>
             <span>${vote_average}</span>
         </div>
         <div class="overview">
@@ -44,13 +44,22 @@ function showShows(shows) {
     });
 }
 
-form.addEventListener('submit', (e) => {
+form.addEventListener("submit", (e) => {
     e.preventDefault();
-
     var searchTerm = search.value;
-
-    if(searchTerm) {
+    var recent = JSON.parse(localStorage.getItem("showSearches")) ?? [];
+    if (searchTerm) {
         getShows(searchApi + searchTerm);
-        search.value = '';
+        search.value = "";
     }
-})
+    recent.push(searchTerm);
+    localStorage.setItem("showSearches", JSON.stringify(recent));
+    if (localStorage.recent && localStorage.recent != "") {
+    recent = JSON.parse(localStorage.recent);
+    } else {
+        recent.push("1");
+        JSON.stringify(recent);
+      // console.log(searchTerm.value);
+    }
+    console.log(recent);
+});

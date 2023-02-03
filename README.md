@@ -1,6 +1,6 @@
 #### gitMovie
 ## Project Description:
- _gitMovie_ is a front-end web application that allows users to search for movies and TV shows, view their details and ratings, and get recommendations for similar content. The application includes features such as the ability to filter the search results by "rating"; It also includes features such as the ability to filter the search results by "genre". The users can also view the history of previous movie searches. 
+ _gitMovie_ is a front-end web application that allows users to search for movies and TV shows, view their details and ratings, and get recommendations for similar content. The users can also view the history of previous movie searches. 
 
 
 ## User Story:
@@ -34,7 +34,7 @@ Users can also view history of previous searches (would possibly be a separate p
 To retrieve movie information
 Allow cross-origin resource sharing (CORS)
 Require no authentication
-#TMDB 
+# TMDB 
 For movie ratings
 Allow cross-origin resource sharing (CORS)
 Require simple authentication
