@@ -76,15 +76,23 @@ function showMovies(movies) {
 }
 
 
-form.addEventListener('submit',(e) => {
+form.addEventListener("submit", (e) => {
     e.preventDefault();
-
     var searchTerm = search.value;
-
-    if(searchTerm) {
+    var recent = JSON.parse(localStorage.getItem("movieSearches")) ?? [];
+    if (searchTerm) {
         getMovies(searchApi + searchTerm);
-        search.value = '';
-
+        search.value = "";
     }
+    recent.push(searchTerm);
+    localStorage.setItem("movieSearches", JSON.stringify(recent));
+    if (localStorage.recent && localStorage.recent != "") {
+        recent = JSON.parse(localStorage.recent);
+    } else {
+        recent.push("1");
+        JSON.stringify(recent);
+      // console.log(searchTerm.value);
+    }
+    console.log(recent);
 });
 
