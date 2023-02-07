@@ -1,18 +1,61 @@
 * {
     box-sizing: border-box;
+    /* --main-color: #2f2fa2; */
+    --main-color:black;
+    --accent-color: #2f2fa2;
+    --sub-bg-color: #997381;
+    --text-color: white;
+    --accent-2-color: #f64c72;
 }
-
-body {
-    background-color: #22254b;
-    font-family: sans-serif;
+nav{
+    list-style-type: none;
     margin: 0;
+    padding: 0.5rem;
+}
+nav > button{
+    background-color: var(--accent-color);
+    padding: 0.5rem 1rem;
+}
+nav > button:hover{
+    background-color:var(--sub-bg-color);
+    padding: 0.5rem 1rem;
+}
+nav > button > a{
+    color: var(--text-color);
+}
+h1{
+    color: white;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem; 
+}
+form > div {
+    margin-top: -2rem;
+}
+form > div > button{
+    background-color:var(--accent-color);
+    padding: 0.5rem 1rem;
+    color: var(--text-color);
+}
+form > div > button:hover{
+    background-color:var(--sub-bg-color);
+    padding: 0.5rem 1rem;
+}
+body {
+    background-color: var(--main-color);
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    color: var(--text-color);
 }
 
 header {
-    background-color: #373b69;
-    display: flex;
-    justify-content: space-around;
+    background-color: var(--main-color);
+    /* display: flex; */
+    justify-content: normal;
     padding: 1rem;
+    margin-left: 2rem;
 }
 
 .button {
@@ -22,23 +65,29 @@ header {
 
 .search {
     background-color: transparent;
-    border: 2px solid #22254b;
+    border: 2px solid var(--accent-2-color);
     border-radius: 50px;
-    display: flex;
+   display: inline-block;
     justify-content: center;
-    color: blanchedalmond;
-    font-family: inherit;
+    color: var(--text-color);
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     padding: 0.5rem 1rem;
 
 }
 
 .search::placeholder {
-    color: #7378c5;
+    color: var(--text-color);
 } 
 
+.search:hover {
+    background-color: var(--sub-bg-color);
+    color: var(--text-color);
+    outline: none;
+}
 .search:focus {
-    background-color: #22254b;
+    background-color: transparent;
+    color: var(--text-color);
     outline: none;
 }
 
@@ -49,7 +98,7 @@ main {
 
 }
 .movies {
-    background-color: #373b69;
+    background-color: var(--main-color);
     border-radius: 5px;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     margin: 1rem;
@@ -60,11 +109,14 @@ main {
 
 .movies img {
     width: 100%;
+    border: 2px solid var(--accent-color);
+    border-radius: 50px;
 
 }
 
 .movie-info {
-    color: blanchedalmond;
+    
+    color: var(--text-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,14 +130,15 @@ main {
 }
 
 .movie-info span {
-    background-color: #22254b;
+    background-color: var(--main-color);
     border-radius: 3px;
     font-weight: bold;
     padding: 0.25rem 0.5rem;
 }
 
 .overview {
-    background-color: blanchedalmond;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--accent-color);
     padding: 2rem;
     position: absolute;
     max-height: 100%;
