@@ -19,7 +19,6 @@ Users can also view history of previous searches
 ![Screenshot](assets/Styles/imgs/Screen%20Shot%202023-02-06%20at%208.38.15%20PM.png)
 ![Screenshot](assets/Styles/imgs/Screen%20Shot%202023-02-06%20at%208.38.27%20PM.png)
 ![Screenshot](assets/Styles/imgs/Screen%20Shot%202023-02-06%20at%208.38.59%20PM.png)
-![Screenshot](assets/Styles/imgs/Screen%20Shot%202023-02-06%20at%208.39.53%20PM.png)
 ![Screenshot](assets/Styles/imgs/Screen%20Shot%202023-02-06%20at%208.40.18%20PM.png)
 
 
