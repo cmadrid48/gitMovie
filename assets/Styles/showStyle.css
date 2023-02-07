@@ -1,48 +1,58 @@
 * {
     box-sizing: border-box;
+    --main-blue-color: #265077;
+    --main-purple-color: #022140;
+    --accent-purple-color: #494B68;
+    --main-green-color: #1E4258;
+    --accent-green-color: #2D5F5D;
+    --text-dark: black;
+    --text-light: blanchedalmond;
 }
 
 body {
-    background-color: #22254b;
+    background-color: var(--main-green-color);
     font-family: sans-serif;
     margin: 0;
+    color: var(--text-light);
 }
 
 header {
-    background-color: #373b69;
+    background-color: var(--main-blue-color);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1rem;
 }
-
 h1 {
     font-family: 'Roboto', sans-serif;
+    color: var(--text-light);
 }
-
 .button {
     display: inline-block;
+    justify-content: center;
     border-radius: 4px;
-    background-color: #7378c5;
+    background-color: var(--main-purple-color);
     border: none;
-    color: #FFFFFF;
+    color: var(--main-purple-color);
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
-    padding: 18px;
+    padding: 10px;
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
     
 }
-
+a{
+    text-decoration: none;
+    color:var(--text-light);
+}
 .button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
-
 .button span:after {
     content: '\00bb';
     position: absolute;
@@ -62,8 +72,8 @@ h1 {
 }
 
 .search {
-    background-color: transparent;
-    border: 2px solid #22254b;
+    background-color: var(--accent-green-color);
+    border: 2px solid var(--accent-purple-color);
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -71,17 +81,23 @@ h1 {
     font-family: inherit;
     font-size: 1rem;
     padding: 0.5rem 1rem;
-
 }
 
 .search::placeholder {
-    color: #7378c5;
+    color: var(--text-light);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
 } 
 
 .search:focus {
-    background-color: #22254b;
+    background-color: var(--main-purple-color);
+    color: var(--text-light);
     outline: none;
 }
+.search:focus::placeholder {
+    color: transparent;
+} 
 
 main {
     display: flex;
@@ -90,7 +106,7 @@ main {
 
 }
 .shows {
-    background-color: #373b69;
+    background-color: var(--main-green-color);
     border-radius: 5px;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     margin: 1rem;
@@ -105,7 +121,7 @@ main {
 }
 
 .show-info {
-    color: blanchedalmond;
+    color: var(--text-light);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -119,14 +135,14 @@ main {
 }
 
 .show-info span {
-    background-color: #22254b;
+    background-color: var(--accent-green-color);
     border-radius: 3px;
     font-weight: bold;
     padding: 0.25rem 0.5rem;
 }
 
 .overview {
-    background-color: blanchedalmond;
+    background-color: var(--accent-purple-color);
     padding: 2rem;
     position: absolute;
     max-height: 100%;
@@ -137,6 +153,7 @@ main {
     right: 0;
     transform: translateY(101%);
     transition: transform 0.3s ease-in;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .overview h3 {
