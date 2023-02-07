@@ -44,13 +44,13 @@ Returns a JSON response
 Create GitHub Repo
 Create HTML index & results Page
 Create applicable elements for JS
-Create filter sections for specific search requirements (genre, rating)
+Create filter sections for specific search requirements
 Create CSS file and style accordingly
 Create Javascript (JS) file
-Apply API's for both Movie and Rating
+Apply API's for both Movie and shows
 Link API's for proper search parameters
 Test all functions in Js
-Have Deployed final project 
+Have Deployed project 
 
 ## Features to implement in order:
 The web application should have a user interface that allows the user to input their preferred movie genres and rating.
@@ -60,3 +60,19 @@ The recommended movie should be selected from a database of movies that are curr
 The application should be able to handle multiple user inputs and provide different recommendations accordingly.
 The application should not crash or display any errors when receiving and processing user input.
 
+## Installation
+
+Visit github HERE to install, or contribute. [HERE](https://github.com/cmadrid48/gitMovie)
+
+Then.
+
+```bash
+git clone https://github.com/cmadrid48/gitMovie [your folder]
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
