@@ -14,18 +14,17 @@ Our front-end web application would include two APIs for movie recommendations, 
 The application would allow users to search for movies and TV shows, view their details and ratings, and get recommendations for similar content.
 The application includes features such as the ability to filter the search results by "rating"
 It also includes features such as the ability to filter the search results by "genre"
-Users can also view history of previous searches (would possibly be a separate page HTML)
+Users can also view history of previous searches 
 
-# Acceptance Criteria:
-<li> GIVEN: Website with search box including a Title and Other Recommended Alternatives. </li>
-<li> WHEN I search for different genres of movies </li>
-<li> THEN I'm presented with a list of movies relating to the requested search. </li>
-<li> WHEN I'm presented with my list of movies I'd like to see some alternative recommendations (books, shows, other movies) </li>
-<li> THEN I'm shown a list of alternative recommendations (books, shows, other movies) </li>
-<li> WHEN I search what mood I'm in </li>
-<li> THEN I'm shown movies relating to that move </li>
-<li> WHEN I search for movie ratings by stars 1-5 </li>
-<li> THEN I'm presented a list of movies with the selected rating </li>
+![Screenshot](assets/Styles/imgs/Screen%20Shot%202023-02-06%20at%208.38.15%20PM.png)
+![Screenshot](assets/Styles/imgs/Screen%20Shot%202023-02-06%20at%208.38.27%20PM.png)
+![Screenshot](assets/Styles/imgs/Screen%20Shot%202023-02-06%20at%208.38.59%20PM.png)
+![Screenshot](assets/Styles/imgs/Screen%20Shot%202023-02-06%20at%208.39.53%20PM.png)
+![Screenshot](assets/Styles/imgs/Screen%20Shot%202023-02-06%20at%208.40.18%20PM.png)
+
+
+
+[Deployed Application](https://github.com/cmadrid48/gitMovie)
 
 
 ## APIs to be used: 
