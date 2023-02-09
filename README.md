@@ -38,25 +38,6 @@ Allow cross-origin resource sharing (CORS)
 Require simple authentication
 Returns a JSON response
 
-## Tasks Breakdown
-Create GitHub Repo
-Create HTML index & results Page
-Create applicable elements for JS
-Create filter sections for specific search requirements
-Create CSS file and style accordingly
-Create Javascript (JS) file
-Apply API's for both Movie and shows
-Link API's for proper search parameters
-Test all functions in Js
-Have Deployed project 
-
-## Features to implement in order:
-The web application should have a user interface that allows the user to input their preferred movie genres and rating.
-The application should be able to receive the user's input and use it to recommend a movie that matches their rating or mood preferences.
-The recommended movie should be displayed to the user on the screen in a clear and concise manner.
-The recommended movie should be selected from a database of movies that are currently available to watch.
-The application should be able to handle multiple user inputs and provide different recommendations accordingly.
-The application should not crash or display any errors when receiving and processing user input.
 
 ## Installation
 
